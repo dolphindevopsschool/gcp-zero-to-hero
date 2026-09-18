@@ -1,18 +1,4 @@
-# Day 1: GCP Free Trial Setup
-
-> Part of the [gcp-zero-to-hero](https://github.com/dolphindevopsschool/gcp-zero-to-hero) course.
-
-## 🎥 Video Info
-
-| | |
-|---|---|
-| **Video #** | 01 |
-| **Title** | Setting Up Your Google Cloud Platform Free Trial |
-| **YouTube Link** | *add link after upload* |
-| **Duration** | *add after edit* |
-| **Prerequisites** | A Google account, Chrome browser |
-
-## 📌 Overview
+# GCP Free Trial Setup
 
 This is the first video in the GCP Zero to Hero series. Before we touch any cloud service, we need an active GCP account with billing configured. Google offers **$300 in free credit valid for 90 days**, which is more than enough to complete this course — as long as you manage your resources carefully.
 
@@ -52,10 +38,3 @@ Free credit does **not** mean unlimited or unmonitored usage. Once a resource (V
 - ⏳ **Billing data lags ~24 hours.** A clean billing dashboard today doesn't guarantee no charges are in flight — stay a step ahead rather than reacting after the fact.
 
 > Following this discipline is what makes $300 last the entire course instead of a few days.
-
-## 🔜 Next Video
-
-**Day 2:** Exploring the GCP Console & Creating Your First Project
-
----
-*Maintained as part of the daily video log in this repo. Each video gets its own `day-XX-*.md` file under `/docs`.*
