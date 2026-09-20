@@ -1,23 +1,14 @@
-# GCP Zero to Hero | Day 002: Create a Project in Google Cloud Console (Under 10 Minutes)
+# How to Delete a GCP Project
 
-In this tutorial, I show you how to create a project in Google Cloud Console in under 10 minutes — this will help you get started with Google Cloud Platform effortlessly.
+## Key Points
 
-## 📱 Join our WhatsApp Community
-https://chat.whatsapp.com/KFildMwV0s2...
+- Shutting down a project stops all billing and resource usage. This action immediately moves the project into a 30-day recovery period.
 
-## 💻 GitHub Repo Used in This Video
-https://github.com/dolphindevopsschoo...
+- Project IDs are unique and permanent. Once a project is fully deleted, its ID can't be reused. If you want to preserve a custom project ID for future use, delete the resources within the project instead of shutting down the project itself.
 
-## 🔗 Links Used in the Video
-1. [Google Cloud Platform](https://cloud.google.com/)
-2. [Resource Manager Overview](https://docs.cloud.google.com/resource-manager/docs/resource-manager-overview)
-3. [Cloud Platform Resource Hierarchy](https://docs.cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy)
+- Resource recovery: While most resources are recoverable within the 30-day window, some services—such as Cloud Storage and Pub/Sub—might delete resources much sooner.
 
----
+## Verify Project Status
 
-Follow along as we explore Google Cloud Platform (GCP) step by step and build our cloud infrastructure skills together, one video at a time.
-
-## 📧 Contact
-dolphindevopsschool@gmail.com
-
-**Subscribe** for upcoming lessons, and share your questions in the comments or via email.
+```bash
+gcloud projects describe PROJECT_ID
