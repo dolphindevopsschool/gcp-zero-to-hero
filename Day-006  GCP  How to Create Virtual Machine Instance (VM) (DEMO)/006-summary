@@ -1,0 +1,8 @@
+How to create VM: https://docs.cloud.google.com/compute/docs/instances/create-start-instance
+Machine Families: https://docs.cloud.google.com/compute/docs/machine-resource
+Prevent accidental VM deletion: https://docs.cloud.google.com/compute/docs/instances/preventing-accidental-vm-deletion#toggling_deletion_protection_for_existing_instances
+Suspend: means standby or sleep mode similar to closing the lid of laptop.
+Reset: VM performs a hard reset on the instance, similar to pressing the physical reset button on a desktop computer.
+
+
+

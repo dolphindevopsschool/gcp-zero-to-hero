@@ -1,0 +1,5 @@
+Shutting down a project stops all billing and resource usage. This action immediately moves the project into a 30-day recovery period
+You can recover most resources if you restore a project within the 30-day period. Some services such as Cloud Storage or Pub/Sub might delete data sooner than 30 days. For example, Cloud Storage resources that are protected by soft delete might be deleted after 7 days, depending on the soft delete retention duration, but buckets that have soft delete disabled might be deleted immediately and might not be recoverable.
+It can take up to 36 hours for all services within a restored project to become fully functional. In particular, OAuth clients may take 1 to 3 days to be fully operational after a project is restored. If your resources aren't restored after this period, reach out to Google support.
+Some services might need to be restarted manually.
+gcloud projects describe PROJECT_ID

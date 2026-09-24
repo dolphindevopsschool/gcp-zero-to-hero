@@ -1,0 +1,4 @@
+Budget: The Cost Tracker, Budget is a monitoring tool you define to track your actual cloud expenditures against a planned financial target.
+Billing Alert: The Warning System, A Billing Alert in GCP consists of the automated threshold rules and communication channels tied directly to your budget
+Note: The bill will reflect in 24 hr. basically if we use it today then it will reflect tomorrow.
+Doc link: https://docs.cloud.google.com/billing/docs/how-to/budgets
